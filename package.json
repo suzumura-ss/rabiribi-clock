@@ -1,0 +1,28 @@
+{
+  "name": "rabiribi-clock",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "@fitbit/sdk": "~1.0.2",
+    "@fitbit/sdk-cli": "^1.0.1"
+  },
+  "fitbit": {
+    "appUUID": "b406754d-c0f6-49fa-82f8-9f3359089e3a",
+    "appType": "clockface",
+    "appDisplayName": "Rabiribi Clock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [
+      "access_internet"
+    ],
+    "buildTargets": [
+      "higgs"
+    ],
+    "i18n": {}
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}

@@ -1,0 +1,7 @@
+<svg class="background">
+  <image id="imageBackground" href='icon.png' />
+  <svg>
+    <text id="time-label-shadow" class="time time-shadow" />
+    <text id="time-label" class='time' />
+  </svg>
+</svg>
